@@ -1,5 +1,5 @@
 name: action-runner
-on: [push]
+on:   push
 
 jobs:
   publish:
