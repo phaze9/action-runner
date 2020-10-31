@@ -1,5 +1,8 @@
 name: action-runner
-on:   push
+on:
+  push
+  schedule:
+    - cron: '* * * * 0'
 
 jobs:
   publish:
