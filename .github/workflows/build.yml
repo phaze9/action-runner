@@ -2,7 +2,7 @@ name: action-runner
 on:
   push:
   schedule:
-    - cron: '* * * * 0'
+    - cron: '0 1 * * 0'
 
 jobs:
   publish:
